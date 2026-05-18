@@ -1,125 +1,31 @@
 body {
-    font-family: Roboto;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 0px;
+    padding: 0px
 }
 
-img {
-    border: solid black 5px;
-    width: 250px;
-    height: 250px;
+section .hero-section {
+    background-color: #1f2937;
+    font-family: Roboto;
+}
+
+nav li {
+    font-size: 18px;
+    color: #f9faf8;
+    list-style-type: none;
 }
 
 nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
     justify-content: space-between;
+
 }
 
-ul {
+nav ul {
     display: flex;
-    align-items: center;
     gap: 20px;
 }
 
-li {
-    text-decoration: none;
-    list-style: none;
-}
-
-.Hero-Text {
-    display: flex;
-    flex-direction: column;
-}
-
-.hero-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    width: 1140px;
-    
-}
-
-.hero-section p {
-    max-width: 400px;
-    
-}
-
-.Hero-Text button {
-    width: 100px;
-}
-
-.Hero-Text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 250px;
-}
-
-.hero-section img {
-    height: 250px;
-    width: 550px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.info-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 1140px;
-
-}
-
-.info-cards {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 20px;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-}
-
-.card p {
-    max-width: 200px;
-}
-
-
-.quote-section {
-    padding: 100px;
-    max-width: 900px;
-    text-align: end;
-}
-
-.quote-section h1 {
-    text-align: left;
-}
-
-header {
-    max-width: 1140px;
-}
-
-.CTA-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    width: 900px;
-    margin-bottom: 60px;
-    background-color: aliceblue;
-    padding: 20px;
+span {
+    font-size: 24px;
+    color: #f9faf8;
 }
