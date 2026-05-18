@@ -1,6 +1,8 @@
 body {
     margin: 0px;
-    padding: 0px
+    padding: 0px;
+    font-family: Roboto;
+
 }
 
 section .hero-section {
@@ -76,4 +78,59 @@ button {
 
 .hero-text p {
     max-width: 500px;
+}
+
+.info-section {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    font-family: Roboto;
+    padding-bottom: 20px;
+}
+
+.boxes-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+
+}
+
+.boxes-container p {
+    max-width: 180px;
+}
+
+.quote-section {
+    background-color: #e5e7eb5b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    height: 400px;
+}
+
+.quote-content {
+    max-width: 795px;
+}
+
+.quote-content p {
+    text-align: end;
+    padding-top: 20px;
+}
+
+.quote-content h1 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+
 }
