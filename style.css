@@ -17,6 +17,10 @@ section .hero-section {
     padding-bottom: 100px;
 }
 
+.hero-text p {
+    margin-bottom: 20px;
+}
+
 
 
 nav li {
@@ -64,6 +68,7 @@ button {
     width: 100px;
     height: 30px;
     font-weight: bolder;
+    border: none;
 }
 
 .hero-content {
@@ -133,4 +138,50 @@ button {
     font-weight: 300;
     font-style: italic;
 
+}
+
+.CTA-section {
+    height: 300px;
+    align-content: center;
+    text-align: center;
+}
+
+.CTA-button {
+    width: 150px;
+}
+
+.cta-flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    width: 750px;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.CTA-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cta-text-container {
+    color: #e5e7eb;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.cta-text-container, p, h3 {
+    margin: 5px;
+}
+
+
+
+
+.CTA-section button {
+    border: #e5e7eb 2px solid;
 }
