@@ -185,3 +185,11 @@ button {
 .CTA-section button {
     border: #e5e7eb 2px solid;
 }
+
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 15px;
+    font-size: 15px;
+}
