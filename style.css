@@ -6,7 +6,16 @@ body {
 section .hero-section {
     background-color: #1f2937;
     font-family: Roboto;
+    padding: 8px;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
 }
+
+
 
 nav li {
     font-size: 18px;
@@ -17,7 +26,13 @@ nav li {
 nav {
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    max-width: 817.67px;
+    margin-bottom: 20px;
+    
 }
 
 nav ul {
@@ -28,4 +43,37 @@ nav ul {
 span {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-text p, button {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-weight: bolder;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-text p {
+    max-width: 500px;
 }
