@@ -16,6 +16,14 @@ section .hero-section {
     align-items: center;
     padding-bottom: 100px;
 }
+/* tablet devices breakpoint */
+@media screen and (max-width: 860px)  {
+    section .hero-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
 
 .hero-text p {
     margin-bottom: 20px;
