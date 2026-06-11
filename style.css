@@ -22,6 +22,9 @@ section .hero-section {
         display: flex;
         flex-wrap: wrap;
     }
+    .hero-text {
+        text-align: center;
+    }
     
 }
 
