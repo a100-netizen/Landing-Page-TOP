@@ -16,7 +16,7 @@ section .hero-section {
     align-items: center;
     padding-bottom: 100px;
 }
-/* tablet devices breakpoint */
+/* hero section Tablet device breakpoint */
 @media screen and (max-width: 860px)  {
     section .hero-content {
         display: flex;
@@ -25,6 +25,15 @@ section .hero-section {
     .hero-text {
         text-align: center;
     }
+
+    section .hero-content img {
+        max-width: 50vw;
+        height: auto;
+    }
+    
+}
+/*hero section Mobile device breakpoint*/
+@media screen and (max-width: 500px) {
     
 }
 
@@ -122,8 +131,34 @@ button {
 }
 
 .boxes-container p {
-    max-width: 180px;
+    max-width: 60vw;
+    margin-top: 20px;
 }
+
+@media screen and (max-width: 755px) {
+    .boxes-container {
+        flex-direction: column;
+    }
+
+    .boxes-container .box-container img { 
+        max-width: 60vw;
+        height: auto;
+
+    }
+
+    .box-container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+}
+    
+
+
+
 
 .quote-section {
     background-color: #e5e7eb5b;
